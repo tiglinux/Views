@@ -13,12 +13,14 @@
 	<link rel="stylesheet" href="css/style.css" />
 	<!--Jquery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Fonts -->
+	<link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.css" />
 </head>
 <body>
 	<div class="parceiros">
 		<div class="container">
 			<h2 class="section-title">Nossos Parceiros</h2>
-			<hr width="1000" style="margin-top: 30px;margin-left: 40px;">
+			
 			<div class="flex-container">
 				<div class="one">
 					<img src="images/4.png"/>
@@ -32,6 +34,9 @@
 				<div class="four">
 					<img src="images/4.png"/>
 				</div>
+				<div class="four">
+					<img src="images/4.png"/>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -40,58 +45,63 @@
 			<img src="images/4.png" height="100">
 		</div>
 		<div class="text-call-out">
-			<h4>
-Over 20 years of experience we’ll ensure you get the best guidance</h4>
+		<h4>Over 20 years of experience we’ll ensure you get the best guidance</h4>
 		</div>
 		<div class="float-right">
 			<a href="#" class="link" target="_blank">Requisite-nos</a>
 		</div>
 	</div>
-	<div class="about">
-		<div class="container_about">
-			<div class="col-md-3">
-				<h3 class="footer-title">Sobre nós</h3>
-				<p>lorem lorem lorem lorem lorem
-					lorem lorem lorem lorem lorem
-				</p>
-				<a href="" style="line-height:4;margin-left: 30px;color: white;">Saiba Mais</a>
-			</div>
-			<div class="col-md-3">
-				<h3 class="footer-title">Nossos serviços</h3>
-				<ul style="list-style: none;color: white;padding-left: 30px;">
-					<li>Costumer</li>
-					<li>Costumer2</li>
-					<li>Costumer3</li>
-					<li>Costumer4</li>		
-				</ul>
-			</div>
-			<div class="col-md-3">
-				<h3 class="footer-title">Contate-nos</h3>
-				<p>lorem lorem lorem lorem lorem
-					lorem lorem lorem lorem lorem
-				</p>
-			</div>
-			<div class="col-md-3">
-				<h3 class="footer-title">Newsletter</h3>
-				<p>lorem lorem lorem lorem lorem
-					lorem lorem lorem lorem lorem
-				</p>
-				<form action="" method="post">
-					<input type="text" id="email" placeholder="email..">
-					<button class="env_button">Enviar</button>
-				</form>
+	<footer class="main-footer">
+		<div class="about">
+			<div class="container_about">
+				<div class="row">
+					<div class="col-md-3">
+						<h3 class="footer-title">Sobre nós</h3>
+						<p>The Experts consulting over 20 years of experience we’ll ensure you always get the best guidance. We serve a clients at every level of their organization, in whatever capacity we can be most useful, whether as a trusted advisor.
+						</p>
+						<a href="#" style="line-height:4;color:rgb(72,199,236);font-weight:600;text-transform: uppercase;display:block;outline: none;">More about us
+							<i class="fa fa-angle-right"></i>
+						</a>
+					</div>
+					<div class="col-md-3">
+						<h3 class="footer-title">Nossos serviços</h3>
+						<ul class="list" style="list-style: none;color: white;padding-left: 5px;">
+							<li> <a href="">Costumer</a></li>
+							<li><a href="">Costumer2</a></li>
+							<li><a href="">Costumer3</a></li>
+							<li><a href="">Costumer4</a></li>		
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<h3 class="footer-title">Contate-nos</h3>
+						<p><span class="fa fa-icons"></span>22/121 Apple Street, New York, NY 10012, USA</p>
+						<p><span class="fa fa-phone"></span>	Phone: +123-456-7890</p>
+						<span class="fa fa-envelope">Mail@Fortuneteam.com</span>
+						<ul class="social" style="margin-top: 20px;padding-left: 30px;">
+							<li> </li>
+							<li></li>
+							<li></li>
+						</ul>
+						
+					</div>
+					<div class="col-md-3">
+						<h3 class="footer-title">Newsletter</h3>
+						<p style="margin-left:3px;">Sign up today for hints, tips and the latest product news
+						</p>
+						<form action="" method="post">
+							<input type="email" id="email" size="36" placeholder="email.." style="margin-left: 5px;">
+							<button class="btn_sub" type="submit" style="margin-left: 5px;">Enviar</button>
+						</form>
+					</div>
+				</div>
+				
 			</div>
 		</div>
-	</div>
-			
-	<footer>
-		<div class="container_footer">
-			<hr>
-			<p>Copyright (C) Todos os direitos reservados - Tiago</p>
+		<hr size="1" style="color:white;">
+		<div class="final_footer" style="background-color: black; color: white;">
+			<p style="font-family:'Poppins',sans-serif;padding-bottom:40px;padding-left:20px;padding-top:50px;color:gray;font-size:16px;">All rights reserved (C) - Tiago Ribeiro Santos 2019 - Powered by : <a href="" style="color:#48c7ec;">Developer</a></p>
 		</div>
 	</footer>
-
-
 	<script>
 		/*$(document).ready(function(){
 			alert("oi mundo!");
