@@ -7,7 +7,7 @@
 
 /*
 
-	Falta sÃ³ fazer a media querie;
+	Falta só fazer a media querie;
 */
 
 *{
@@ -39,13 +39,6 @@ a:link{
 	font-weight:500;
 	color:inherit;
 	line-height: 1.3;
-	font-family:'Poppins', sans-serif;
-	font-size: 30px;
-}
-.final-hr{
-	height: 0.499px;
-	font-weight: 500;
-	background:#848484;
 }
 .section-title::after{
 	content:"";
@@ -211,9 +204,8 @@ input[type="email"]{
 }
 
 
-.col-md-3 > p  {
+.col-md-3 > p {
 	margin-bottom: 10px;
-	font-size: 18px;
 }
 .col-md-3  {
 	margin-bottom: 70px;
@@ -223,7 +215,7 @@ input[type="email"]{
 }
 .col-md-3 p span::after{
 	content: "";
-	padding-left: 8px;
+	padding-left: 10px;
 }
 
 form {
