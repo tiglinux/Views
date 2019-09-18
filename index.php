@@ -18,89 +18,108 @@
 </head>
 <body>
 	<div class="parceiros">
-		<div class="container">
 			<h2 class="section-title">Nossos Parceiros</h2>
-			
 			<div class="flex-container">
-				<div class="one">
+				<div class="w10">
 					<img src="images/4.png"/>
 				</div>
-				<div class="two">
+				<div class="w10">
 					<img src="images/4.png"/>
 				</div>
-				<div class="three">
+				<div class="w10">
 					<img src="images/4.png"/>
 				</div>
-				<div class="four">
+				<div class="w10">
 					<img src="images/4.png"/>
 				</div>
-				<div class="four">
+				<div class="w10">
 					<img src="images/4.png"/>
 				</div>
+				<div class="w10">
+					<img src="images/4.png"/>
+				</div>
+				<div class="w10">
+					<img src="images/4.png"/>
+				</div>
+				<div class="w10">
+					<img src="images/4.png"/>
+				</div>
+				<div class="w10">
+					<img src="images/4.png"/>
+				</div>
+				
+
 			</div>
-		</div>
 	</div>
 	<div class="call-out">
-		<div class="logo">
-			<img src="http://wp1.themexlab.com/newwp/experts/wp-content/uploads/2017/02/logo2.png">
-		</div>
-		<div class="text-call-out">
-		<h4>Over 20 years of experience we’ll ensure you get the best guidance</h4>
-		</div>
-		<div class="float-right">
-			<a href="#" class="link" target="_blank">Requisite-nos</a>
-		</div>
+			<div class="w20">
+				<div class="logo">
+					<img src="images/logo2.png">
+				</div>
+			</div>
+			<div class="w70">
+				<div class="float-left">
+					<h4>Over 20 years of experience we’ll ensure you get the best guidance</h4>
+				</div>
+			
+				<div class="float-right">
+					<a href="#" class="link" target="_blank">Requisite-nos</a>
+				</div>
+			</div>
 	</div>
-	<footer class="main-footer">
-		<div class="about">
-			<div class="container_about">
-				<div class="row">
-					<div class="col-md-3">
+	<footer>
+				<ul>
+					<li >
 						<h3 class="footer-title">Sobre nós</h3>
 						<p>The Experts consulting over 20 years of experience we’ll ensure you always get the best guidance. We serve a clients at every level of their organization, in whatever capacity we can be most useful, whether as a trusted advisor.
 						</p>
-						<a href="#" style="font-family:'Poppins',sans-serif;line-height:4;color:rgb(72,199,236);font-weight:600;text-transform: uppercase;display:block;outline: none;">More about us
+						
+						<a href="#" class="default_link">More about us
 							<i class="fa fa-angle-right"></i>
 						</a>
-					</div>
-					<div class="col-md-3">
-						<h3 class="footer-title">Nossos serviços</h3>
-						<ul class="list">
-							<li> <a href="">Costumer</a></li>
-							<li><a href="">Costumer2</a></li>
-							<li><a href="">Costumer3</a></li>
-							<li><a href="">Costumer4</a></li>		
-						</ul>
-					</div>
-					<div class="col-md-3">
-						<h3 class="footer-title">Contate-nos</h3>
-						<p><span class="fa fa-phone"  style="color: #48C7EC;"></span>22/121 Apple Street, New York, NY 10012, USA</p>
-						<p><span class="fa fa-phone" style="color: #48C7EC;"></span>	Phone: +123-456-7890</p>
-						<span class="fa fa-envelope" style="color: #48C7EC;"></span><p>Mail@Fortuneteam.com</p>
-						<ul class="social" style="margin-top: 20px;padding-left: 30px;">
-							<li> </li>
-							<li></li>
-							<li></li>
-						</ul>
+					
+					</li>
+					<li>
+						<h3 class="footer-title" style="margin-left: 50px;">Nossos serviços</h3>
+						<ol class="list">
+							<li> <a href="">Customer</a></li>
+							<li><a href="">Advanced</a></li>
+							<li><a href="">Organization</a></li>
+							<li><a href="">Performance</a></li>
+							<li><a href="">Sustain</a></li>
+							<li><a href="">Business </a></li>		
+						</ol>
+					</li>
+					<li>
+						<h3 class="footer-title" >Contate-nos</h3>
+						<p style="margin-bottom:10px;"><span class="fa fa-phone"  style="color: #48C7EC; "></span>22/121 Apple Street, New York, NY 10012, USA</p>
+						<p style="margin-bottom:10px;"><span class="fa fa-phone" style="color: #48C7EC;"></span>	Phone: +123-456-7890</p>
+						<p style="margin-bottom:10px;">Mail@Fortuneteam.com</p>
 						
-					</div>
-					<div class="col-md-3">
+					</li>
+					<li>
 						<h3 class="footer-title">Newsletter</h3>
-						<p style="margin-left:3px;">Sign up today for hints, tips and the latest product news
+						<p>Sign up today for hints, tips and the latest product news
 						</p>
-						<form action="" method="post">
-							<input type="email" id="email" size="36" placeholder="email.." style="margin-left: 5px;">
-							<span class="fa fa-envelope"></span><button class="btn_sub" type="submit" style="margin-left: 5px;">Enviar</button>
-						</form>
-					</div>
-				</div>
+						
+							<form action="" method="post">
+								<!-- Row -->
+								<div class="forms">
+									<div class="forms w100 ">
+										<input type="email" name="email" placeholder="Email.." class="email_class">
+										<span class="fa fa-envelope"></span>
+										<button class="thm-btn w100" type="submit">Enviar</button>
+									</div>
+								</div>
+							</form>
+					
+						
+					</li>
+				</ul>
 				
-			</div>
-		</div>
-		<h2 class="final-hr"></h2>
-		<div class="final_footer" style="background-color: #10252e; color: white;">
-			<p style="font-family:'Poppins',sans-serif;padding-bottom:40px;padding-left:20px;padding-top:30px;color:gray;font-size:14px;">All rights reserved (C) - Tiago Ribeiro Santos 2019 - Powered by : <a href="" style="color:#48c7ec;">Developer</a></p>
-		</div>
+		<section class="footer-bootom">
+			<p>Copyrights © 2020 All Rights Reserved. Powered by Tiago Ribeiro Santos </p>
+		</section>
 	</footer>
 	<script>
 		/*$(document).ready(function(){
